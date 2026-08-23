@@ -1,0 +1,21 @@
+{
+  "retrieval_config": {
+    "type": "hybrid",
+    "top_k": 5,
+    "use_reranker": true
+  },
+  "augmentation_config": {
+    "max_context_length": 4000
+  },
+  "generation_config": {
+    "provider": "openai",
+    "model": "nvidia/nemotron-3.5-lightning:free",
+    "temperature": 0.7,
+    "max_tokens": 500
+  },
+  "vector_store_config": {
+    "type": "faiss",
+    "index_path": "data/index",
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2"
+  }
+}
