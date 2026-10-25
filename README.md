@@ -86,7 +86,7 @@ pip install enterprise-rag-framework
 
 ```bash
 # Clone the repository
-git clone https://github.com/TaimoorKhan10/Enterprise-RAG-Framework.git
+git clone https://github.com/madhuthoram/Enterprise-RAG-Framework.git
 cd Enterprise-RAG-Framework
 
 # Install in development mode
